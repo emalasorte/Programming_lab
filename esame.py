@@ -181,7 +181,7 @@ def compute_daily_max_difference(time_series=None):
 
                 # Altrimenti, imposta 'i' come 'j' e imposta il flag a vero
                 i=j
-                giorno_successivo=True
+                giorno_successivo = True
 
                 # Come da istruzioni, se un giorno ha soltanto una misurazione il risultato deve essere None.
                 if len(lista_temperature) == 1:
